@@ -1,0 +1,360 @@
+*{
+    border: 0;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+body{
+    border: 5px solid royalblue;
+    height: 3780px;
+    width: 1920p×;
+    margin: 0;
+    border: 0;
+}
+/* this is the full banner section */
+.banner_section{
+    display: flex;
+    height: 1080px;
+    width: 1920px;
+    background-image: url(../images/banner/banner2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.empty{
+    width: 1552px;
+}
+.content{
+    padding-top: 216px;
+    padding-right: 200px;
+}
+.ban_title{
+    height: 130px;
+    font-size: 80px;
+    font-weight:700;
+    text-align: right;
+    padding-left: 300px;
+    text-shadow: 3px 5px 4px gray;
+    line-height: 100px;
+}
+.content_text{
+    font-size: 20px;
+    text-align: right;
+    margin-top: 200px;
+    padding-left: 300px;
+    line-height: 40px;
+}
+.primary_btn{
+    height: 64px;
+    width: 160px;
+    background-color: #F15B22;
+    color: white;
+    font-size: 23px;
+    border-radius: 5px;
+    margin-left: 750px;
+    margin-top: 40px;
+}
+
+.primary_btn:hover{
+    background-color: white;
+    color: red;
+}
+/* this is the problem section */
+
+.problem_section{
+    height: 1080px;
+    width: 1920px;
+    display: flex;
+    justify-content: space-around;
+}
+.image_section{
+    width: 960px;
+
+}
+.section_image{
+    height: 864px;
+    padding: 90px 75px 75px 108px;
+}
+
+.content{
+    width: 960px;
+    padding-top: 320px;
+    padding-left: 150px;
+}
+
+.title{
+    font-size: 60px;
+    font-weight:900;
+    margin-bottom:0;
+}
+.problem_content{
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 26px;
+    line-height: 30px;
+}
+.problem_list{
+    margin-top: 20px 0 0 0;
+
+}
+.my_list{
+    font-size: 20px;
+    line-height: 40px;
+    list-style-type:none;
+    margin-left: -42px;
+}
+
+.tick{
+    height: 20px;
+    margin-right: 20px;
+}
+/* this is the action (own insertion) section */
+
+.action_section{
+    height: 700px;
+    width: 2000px;
+    margin-bottom: 100px;
+
+}
+
+.action_title{
+    text-align: center;
+    font-size: 60px;
+    font-weight:900;
+    height: 100px;
+    width: 1920px;
+}
+.action_content{
+    display: flex;
+    width: 1920px;
+}
+.action_sep{
+    border: 0;
+    margin: 0;
+}
+.action_discription{
+    font-size: 20px;
+    margin: 100px 50px 0 50px;
+    line-height: 30px;
+    height: 210px;
+    width: 860px;
+}
+
+.actions_list{
+    list-style: none;
+    margin: 0 100px 0 50px;
+    height: 200px;
+    width: 820px;
+}
+
+.action{
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.art_image{
+    margin: 40px;
+    height: 500px;
+    margin-top: 100px;
+    
+}
+
+/* My plans section */
+
+.plans{
+    height: 520px;
+    width: 1920px;
+}
+
+.plan_titles{
+    text-align: center;
+    font-size: 60px;
+    font-weight:900;  
+    margin-bottom: 100px;  
+}
+.plan_list{
+    display: flex;
+    justify-content:space-around;
+    }
+.plan{
+    list-style: none;
+}
+.icon{
+    margin:auto;
+    padding: 0 100px 0 100px;
+}
+.plan_title{
+    text-align: center;
+    font-size: 25px;
+    font-weight:700;
+    padding-bottom: 20px;
+}
+.subtitles{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500px;
+}
+/* last part */
+
+
+.gradiant_section{
+    height: 520px;
+    width: 1920px;
+    margin: 0;
+    border: 0;
+}
+
+.watch{
+    display: block;
+    height: 400px;
+    width: 1536px;
+    margin: auto;
+    background-image: url('../images/watch.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;    
+    margin-bottom: 150px;
+}
+
+.gradiant{
+    display: block;
+    height: 100%;
+    background-image: url('../images/gradient2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px; 
+}
+
+.grad_title{
+    position: absolute; 
+    margin-top: -400px;
+    font-size: 50px;
+    font-weight:700;
+    color: white;
+    padding: 80px 0 0 50px;
+    
+}
+
+.call_button{
+    position: absolute; /*using a position attribute since the title is not clear*/
+    margin-top: -150px;
+    height: 80px;
+    width: 200px;
+    color: #F15B22;
+    background-color: white;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+.call_button:hover{
+    
+    color: white;
+    background-color: red;
+}
+
+
+/* footer */
+
+/* footer left */
+.footer{
+    display: flex;
+    height: 520px;
+    width: 1920px;
+    background-color: black;
+    color: white;
+}
+.footer_info_section{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.footer_title{
+    font-weight: 700;
+    font-size: 50px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+
+.footer_description{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 30px;
+    width: 550px;
+}
+
+.email{
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.phone{
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.sm_icons{
+    display: flex;
+}
+
+.sm_icon{
+    padding-top: 20px;
+    margin: 10px;
+}
+
+/* footer right */
+.subscription{
+    height: 520px;
+    width: 1920px;
+    background-color: black;
+    color: white;
+}
+
+.sub_title{
+    padding-top: 100px;
+    font-weight: 700;
+    font-size: 25px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    margin-bottom: 0;
+}
+
+.email_in{
+    display: block;
+    width: 420px;
+    height: 70px;
+    margin-bottom: 2g0px;
+    border-radius: 10px;
+    border: 3px solid white;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.sub_btn{
+    display: block;
+    margin-top: 15px;
+    height: 64px;
+    width: 160px;
+    color: red;
+    background-color: white;
+    font-size: 23px;
+    border-radius: 5px;
+}
+.sub_btn{
+    display: block;
+    margin-top: 15px;
+    height: 64px;
+    width: 160px;
+    color: red;
+    background-color: white;
+    font-size: 23px;
+    border-radius: 5px;
+}
+.sub_btn:hover{
+    color: white;
+    background-color: red;
+}
+
+
